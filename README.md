@@ -47,6 +47,10 @@ The GUI provides an easy-to-use interface for all features:
 2. Fill in the required information 
 3. Click the action button to perform the task
 
+[![Watch the video](https://img.youtube.com/vi/yu5G9p_GwUY/0.jpg)](https://youtu.be/yu5G9p_GwUY)
+
+
+
 ## Structure
 
 ```
