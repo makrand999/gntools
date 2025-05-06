@@ -22,18 +22,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Command-Line Interface
-
-#### Image Compressor
-
-Compress an image to a specific file size (in kilobytes):
-
-```
-python main.py compress input_image.jpg output_image.jpg --size 200
-```
-
-This will compress `input_image.jpg` to approximately 200KB and save it as `output_image.jpg`.
-
 ### Graphical User Interface
 
 Run the GUI version of the application:
