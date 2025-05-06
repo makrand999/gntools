@@ -55,8 +55,7 @@ The GUI provides an easy-to-use interface for all features:
 
 ```
 modular-app/
-├── main.py                  # Command-line interface entry point
-├── gui_main.py              # GUI entry point
+├── main.py                  # GUI entry point
 ├── features/                # Directory containing feature modules
 │   ├── __init__.py          # Makes features a proper package
 │   ├── image_compressor.py  # Image compression module
