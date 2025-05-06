@@ -80,4 +80,8 @@ def create_your_feature_tab(self):
 
 ## License
 
+<<<<<<< HEAD
 [MIT License](LICENSE)
+=======
+[MIT License](LICENSE)
+>>>>>>> 07fbb891f7e2b9a1ce7c32c1c6eaf0428f3795d6
