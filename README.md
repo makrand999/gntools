@@ -57,9 +57,8 @@ modular-app/
 To add a new feature:
 
 1. Create a new Python file in the `features` directory
-2. Import and add the feature to both `main.py` (CLI) and `gui_main.py` (GUI)
-3. For the GUI, create a new tab method in the `ModularAppGUI` class
-4. Update this README with usage instructions
+2. For the GUI, create a new tab method in the `ModularAppGUI` class
+3. Update this README with usage instructions
 
 ### Adding a New Tab to the GUI
 
