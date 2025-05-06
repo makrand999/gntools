@@ -11,6 +11,7 @@ import threading
 
 # Import feature modules
 from features.image_compressor import compress_image
+from features.img_to_pdf import ImageToPdfFeature
 
 class ModularAppGUI(tk.Tk):
     def __init__(self):
@@ -25,11 +26,6 @@ class ModularAppGUI(tk.Tk):
         self.notebook = ttk.Notebook(self)
         self.notebook.pack(fill='both', expand=True, padx=10, pady=10)
         
-        # Add Image Compressor tab
-        self.create_image_compressor_tab()
-        
-        # Add more feature tabs here as needed
-        
         # Create status bar
         self.status_var = tk.StringVar()
         self.status_var.set("Ready")
@@ -38,6 +34,12 @@ class ModularAppGUI(tk.Tk):
         
         # Create the features directory if it doesn't exist
         os.makedirs("features", exist_ok=True)
+        
+        # Add Image Compressor tab
+        self.create_image_compressor_tab()
+        
+        # Add Image to PDF feature (modular approach)
+        self.image_to_pdf_feature = ImageToPdfFeature(self.notebook, self.status_var)
     
     def create_image_compressor_tab(self):
         """Create the image compressor tab with its GUI elements."""
